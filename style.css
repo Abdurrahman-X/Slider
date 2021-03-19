@@ -1,0 +1,15 @@
+.banner{
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+img{
+    width: 500px;
+}
+
+button{
+    margin: 10px;
+}
