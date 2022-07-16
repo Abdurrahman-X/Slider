@@ -7,10 +7,10 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: circleci/node:13.8.0
+    - image: circleci/node:13.8.0
 
     steps:
-      - run: echo $CIRCLE_BUILD_NUN
+      - run: echo $CIRCLE_BUILD_NUM
 
       - run: 
           name: Job Failure
