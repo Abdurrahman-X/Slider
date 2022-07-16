@@ -7,11 +7,10 @@ version: 2.1
 jobs:
   build:
     docker:
-    images: circleci/node:13.8.0
+      - image: circleci/node:13.8.0
 
     steps:
-      - run: echo $CIRCLE_BUILD_NUM
-
+      - run: exit 1
       - run: 
           name: Job Failure
           command: echo "Hello World!"
