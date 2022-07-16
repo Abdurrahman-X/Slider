@@ -12,6 +12,11 @@ jobs:
     steps:
       - run: echo "Welcome Maryam"
 
+      - run: 
+          name: Job Failure
+          command: echo "Hello World!"
+          when: on_fail
+
 workflows:
     my-workflow:
       jobs:
