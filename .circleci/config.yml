@@ -10,7 +10,7 @@ jobs:
       - image: circleci/node:13.8.0
 
     steps:
-      - run: echo "Welcome Maryam"
+      - run: echo $CIRCLE_BUILD_NUM
 
       - run: 
           name: Job Failure
