@@ -10,7 +10,7 @@ jobs:
       - image: circleci/node:13.8.0
 
     steps:
-      - run: echo $CIRCLE_BUILD_NUM
+      - run: echo $CIRCLE_BUILD_NUN
 
       - run: 
           name: Job Failure
